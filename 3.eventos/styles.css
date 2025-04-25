@@ -149,7 +149,10 @@ button:hover {
   background: var(--starship);
   color: var(--heavyMetal);
 }
-
+.buttonBlock:hover {
+  background: var(--heavyMetal);
+  color: var(--starship);
+}
 .btn {
   display: block;
   width: 90%;
@@ -169,4 +172,14 @@ button:hover {
 .btn:hover {
   background: var(--heavyMetal);
   color: var(--starship);
+}
+.avisoError{
+  color: red;
+  font-size: 14px;
+  border: 2px solid red;
+}
+.pruebaError{
+  border-width: 3px;
+  border-style: solid;
+  border-color: red;
 }
