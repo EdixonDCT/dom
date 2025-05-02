@@ -85,10 +85,14 @@ const acepta = () => {
     boton.removeAttribute('disabled');
   }
 }
+const isValid = (e) => {
+  let data = esValido(e)
+  console.log(data);
+}
 //Eventos
-formulario.addEventListener("submit", esValido);
-// addEventListener("DOMContentLoaded",acepta);
-// politicas.addEventListener('change',acepta)
+addEventListener("DOMContentLoaded",acepta);
+politicas.addEventListener('change',acepta)
+formulario.addEventListener("submit", isValid);
 // formulario.addEventListener("submit", validar);
 // nombre.addEventListener("keydown", letras);
 // apellido.addEventListener("keydown", letras);
